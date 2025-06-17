@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;;
+}
+
+h1{
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+header{
+    background-color: rgb(108, 5, 5);
+    padding: 10px;
+}
+
+.Senn{
+    font-size: xx-large;
+    color: red
+}
+
+.layout.container{
+    width: min(1000px, 100%);
+    margin: 0 auto;
+    columns: 3 300px;
+    column-gap: 20px;
+    
+}
+img{
+    display:flex;
+    margin: 0 auto;
+    float: left;
+    width: 33.33%;
+    padding: 5px; 
+     
+}
+
+ .toggle-btn {
+            margin: 20px;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+ .toggle-btn:hover { background: gray; }
