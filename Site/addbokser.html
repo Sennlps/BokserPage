@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/addbokser.css">
+    <title>Bokser toevoegen</title>
+</head>
+<body>
+    <h1>Bokser Toevoegen</h1>
+    <button class="toggle-btn" onclick="window.location.href='bokserpagina.php'">Terug naar Boksers</button>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required>
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required>
+
+        <label for="leeftijd">Leeftijd:</label>
+        <input type="number" id="leeftijd" name="leeftijd" required>
+
+        <label for="titel">Titel:</label>
+        <input type="text" id="titel" name="titel" required>
+
+        <label for="beschrijving">Beschrijving:</label>
+        <textarea id="beschrijving" name="beschrijving" rows="5" required></textarea>
+
+        <label for="bokser_foto">Kies een afbeelding:</label>
+        <input type="file" name="bokser_foto" id="bokser_foto" required>
+
+        <button type="submit" class="toggle-btn">Uploaden</button>
+    </form>
+</body>
+</html>
